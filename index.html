@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arizonia&family=Luxurious+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <h1>Find your inspiration</h1>
+    </section>
+
+    <!-- QUOTE GENERATOR SECTION -->
+    <section class="generator">
+      <div class="overlay"></div>
+
+      <div class="quote-box">
+        <!-- Hidden card (appears after click) -->
+        <div class="card hidden">
+          <img id="quote-image" alt="Inspiration" />
+          <h2 id="quote-text"></h2>
+        </div>
+
+        <!-- Button -->
+        <button id="generate-btn">🤍 Inspire Me</button>
+      </div>
+    </section>
+
+    <!-- JS -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
