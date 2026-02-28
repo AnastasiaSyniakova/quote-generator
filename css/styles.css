@@ -114,3 +114,40 @@ button:hover {
 .hidden {
   display: none;
 }
+
+@media (max-width: 768px) {
+  /* HERO */
+  .hero h1 {
+    font-size: 3.5rem; /* smaller for phone */
+    padding: 0 20px;
+  }
+
+  /* GENERATOR SECTION */
+  .quote-box {
+    width: 90%;
+  }
+
+  /* CARD */
+  .card {
+    width: 100%;
+    height: auto; /* allow flexible height */
+    padding: 20px;
+  }
+
+  .card img {
+    aspect-ratio: 4 / 5;
+    height: auto;
+  }
+
+  .generator {
+    height: auto;
+    padding: 80px 20px;
+  }
+
+  /* BUTTON */
+  button {
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    color: black; /* text black on mobile */
+  }
+}
